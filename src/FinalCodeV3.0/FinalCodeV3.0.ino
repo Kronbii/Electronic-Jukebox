@@ -28,7 +28,7 @@ state = digitalRead(input);
 Serial.println(state);
 
     if(state == HIGH){
-      Serial.println("Awal if");
+    Serial.println("Awal if");
     player.volume(25);
     player.play(1);
     delay(110000);
@@ -36,7 +36,7 @@ Serial.println(state);
     }
     
     else if(state == LOW){
-      Serial.println("Tene if");
+    Serial.println("Tene if");
     player.volume(24);
     player.play(2);
     delay(69000);
